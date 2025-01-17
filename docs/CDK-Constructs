@@ -1,0 +1,18 @@
+## CDK Constructs
+
+##### 1. L1 - Low Level Constructs
+
+- Cfn (Cloud Formation) resources. When used, we must configure all required properties.
+- Most AWS resources are migrated to L2. Use for new services that are still not migrated.
+- Simple constructs - CfnOutput
+
+##### 2. L2 - AWS resources with a higher level
+
+- CDK provides additional functionality like defaults, boiler plate and type safety for many paramters
+- Used most of the time
+
+##### 3. L3 - Patterns
+
+- Combine multiple types of resources and help with common tasks in AWS.
+- Examples: LambdaRestApi
+- Used depending on company policy and matter of preference.

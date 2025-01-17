@@ -1,0 +1,17 @@
+{
+  "Resources": {
+    "FirstCFBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "LifeCycleConfiguration": {
+          "Rules": [
+            {
+              "ExpirationInDays": 3,
+              "Status": "Enabled"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

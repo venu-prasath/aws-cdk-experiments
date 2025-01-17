@@ -1,0 +1,13 @@
+@url = https://md9247n676.execute-api.us-east-1.amazonaws.com/prod/
+
+GET {{url}}/empl?id=cd4deab0-f96a-48b6-9522-f69d7a7598b7
+###
+
+
+POST {{url}}/empl
+content-type: application/json
+
+{ 
+    "name": "Venu",
+    "position": "SWE"
+}

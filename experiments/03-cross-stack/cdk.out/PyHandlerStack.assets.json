@@ -1,0 +1,19 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "c64e295fd0b92e4ec4d9bbec49bcebf9f6f0ca9bc9e1ca9d0fb4b1e3c0ceb0b8": {
+      "source": {
+        "path": "PyHandlerStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "c64e295fd0b92e4ec4d9bbec49bcebf9f6f0ca9bc9e1ca9d0fb4b1e3c0ceb0b8.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

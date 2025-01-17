@@ -1,0 +1,19 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "03b2f87180a05db6ea97a4316c53a6c9bb8ee5212bc002da1535c159ff6d59ac": {
+      "source": {
+        "path": "PyStarterStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "03b2f87180a05db6ea97a4316c53a6c9bb8ee5212bc002da1535c159ff6d59ac.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
